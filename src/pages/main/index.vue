@@ -234,7 +234,7 @@
             font-size: 25px;
             color: #ff734f;
           "
-          >JAVA &nbsp; 零基础</span
+          >编程 &nbsp; 零基础</span
         >
         <span
           style="

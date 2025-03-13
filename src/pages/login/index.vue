@@ -1,13 +1,16 @@
 <!-- 登录页面 -->
 <template>
   <div class="loginWrapper fx-fd-col fx-sb">
-    <video autoplay loop muted="" preload class="loginVideo">
+    <!-- <video autoplay loop muted="" preload class="loginVideo">
       <source src="@/assets/login.mp4" type="video/mp4">
-     </video>
+     </video> -->
     <div class="fx-1 fx-al-ct">
       <div class="login">
         <div class="title">
-          <img src="@/assets/logo.png" alt="" width="198" height="60" srcset="">
+          <!-- <img src="@/assets/logo.png" alt="" width="198" height="60" srcset=""> -->
+          <p style="color: black; word-wrap: break-word; word-break: normal; font-size: 30px;">
+            欢迎来到云学习平台后台管理
+          </p>
         </div>
         <LoginPass v-if="act == 'pass'"></LoginPass>
       </div>
